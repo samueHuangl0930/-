@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="Stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link href="conservation.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      class="d-flex flex-column flex-md-col align-items-center p-3 px-md-4 border-bottom shadow-sm justify-content-center"
+      id="top"
+    >
+      <div class="row col-8 d-flex align-items-center justify-content-center"  id="title">
+        <div class="col-9"><h1 class="text-center">動物管理系統</h1></div>
+      </div>
+      <div class="d-flex justify-content-around h py-2 col-7" id="navbar">
+        <button type="button" class="btn btn-primary active" data-bs-toggle="button" autocomplete="off" aria-pressed="true">首頁</button>
+        <button type="button" class="btn btn-primary active" data-bs-toggle="button" autocomplete="off" aria-pressed="true">健康紀錄</button>
+        <button type="button" class="btn btn-primary active" data-bs-toggle="button" autocomplete="off" aria-pressed="true">場區</button>
+        <button type="button" class="btn btn-primary active" data-bs-toggle="button" autocomplete="off" aria-pressed="true">繁殖紀錄</button>
+        <button type="button" class="btn btn-primary active" data-bs-toggle="button" autocomplete="off" aria-pressed="true">保育等級</button>
+      </div>
+    </div>
+    
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link active"
+          id="EW"
+          data-bs-toggle="tab"
+          data-bs-target="#home"
+          type="button"
+          role="tab"
+          aria-controls="home"
+          aria-selected="true"
+        >
+          野外滅絕(EW)
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="CR"
+          data-bs-toggle="tab"
+          data-bs-target="#profile"
+          type="button"
+          role="tab"
+          aria-controls="profile"
+          aria-selected="false"
+        >
+          極危(CR)
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="EN"
+          data-bs-toggle="tab"
+          data-bs-target="#contact"
+          type="button"
+          role="tab"
+          aria-controls="contact"
+          aria-selected="false"
+        >
+          瀕臨(EN)
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="VU"
+          data-bs-toggle="tab"
+          data-bs-target="#contact"
+          type="button"
+          role="tab"
+          aria-controls="contact"
+          aria-selected="false"
+        >
+          易危(VU)
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="NT"
+          data-bs-toggle="tab"
+          data-bs-target="#contact"
+          type="button"
+          role="tab"
+          aria-controls="contact"
+          aria-selected="false"
+        >
+          接近受威脅(NT)
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="LC"
+          data-bs-toggle="tab"
+          data-bs-target="#contact"
+          type="button"
+          role="tab"
+          aria-controls="contact"
+          aria-selected="false"
+        >
+          暫無危機(LC)
+        </button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div
+        class="tab-pane fade show active"
+        id="home"
+        role="tabpanel"
+        aria-labelledby="EW"
+      >
+        <div
+          class="container-fluid d-flex justify-content-around align-items-center"
+          id="wrapper"
+        >
+          <div class="row container-fluid">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4  mt-4 d-flex align-items-center justify-content-center">
+              <figure class="figure">
+                <img
+                  src="img/panda.jpg "
+                  class="figure-img img-fluid rounded"
+                />
+                <figcaption class="figure-caption">
+                  名稱:熊貓<br>滅種原因:XXXX
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4  mt-4 d-flex align-items-center justify-content-center">
+              <figure class="container-fluid">
+                <div class="col-xs-12 col-sm-6">
+                  <img
+                  src="img/africa.jpg"
+                  class="figure-img img-fluid rounded"
+                />
+                </div>
+                <figcaption class="figure-caption col-xs-12 col-sm-6 col-md-7">
+                  名稱:熊貓<br>滅種原因:XXXX
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div
+        class="tab-pane fade"
+        id="profile"
+        role="tabpanel"
+        aria-labelledby="CR"
+      >
+        123
+      </div>
+      <div
+        class="tab-pane fade"
+        id="contact"
+        role="tabpanel"
+        aria-labelledby="EN"
+      >
+        EBERB
+      </div>
+      <div
+        class="tab-pane fade"
+        id="contact"
+        role="tabpanel"
+        aria-labelledby="VU"
+      >
+        >>>
+      </div>
+      <div
+        class="tab-pane fade"
+        id="contact"
+        role="tabpanel"
+        aria-labelledby="NT"
+      >
+        ...
+      </div>
+      <div
+        class="tab-pane fade"
+        id="contact"
+        role="tabpanel"
+        aria-labelledby="LC"
+      >
+        ...
+      </div>
+    </div>
+  </body>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</html>
