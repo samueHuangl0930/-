@@ -6,7 +6,6 @@ body{
     width: 100%;
     height: 100%;
 }
-/* header */
 #top{
     background-color:burlywood;
 }
@@ -14,6 +13,9 @@ body{
     background-color:bisque;
     border-radius: 20px;
 }
+/* header */
+
+
 .avatar{
     width: 20%;
 }
@@ -46,6 +48,7 @@ body{
 
     /* background-color: bisque; */
 }
+
 .bar a{
     height: 100%;
     width: 20%;
@@ -83,22 +86,79 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+
+
 }
-.introduction{
-    border: black 2px solid;
-    border-radius: 15px;
-    background-color:#FFE6D9;
+.searchbar{
+    background-color:beige;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 50px;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
-.introduction img{
+.searchbar .s1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.searchbar .s1 span{
+    margin-left: 5px;
+}
+.searchbar .s2 input{
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+}
+.searchbar .s3 input{
+    width: 180px;
+    height: 25px;
+    border-radius: 10px;
+}
+.searchbar .s4 input{
+    width: 180px;
+    height: 25px;
+    border-radius: 10px;
+}
+.searchbar .s5 input{
+    font-size: 10px;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.main_content{
+    width: 90%;
+    /* height: 500px; */
+}
+li{
+    list-style: none;
+}
+#s{
+    border: 2px black solid;
+    padding: 5px;
     border-radius: 25px;
+}
+img{
     object-fit: cover;
+    border-radius: 20px;
     max-width: 100%;
     max-height: 100%;
 }
-article{
+#bottom{
+    background-color: rgb(208, 208, 208);;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    width: 100%;
 }
-span{
-    font-weight: bold;
-}
+
+/* .animalbigbox_up{
+    height: 40%;
+    }
+.animalbigbox_down{
+height: 60%;
+} */
